@@ -1,0 +1,11 @@
+description = "this is a domain jar"
+
+jar {
+    baseName = 'productquery-domain'
+}
+
+
+dependencies {
+    compile(project(":infrastructure"))
+}
+
